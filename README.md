@@ -1,22 +1,26 @@
-the command are :
-docker ps --all
-docker ps
-docker build .
-docker build -t <name> .
-docker run <name>
-docker run docker.io/milodey/nodeapp
-docker run -p <local-port>:<docker-port> <name>
-docker run -p 8000:8000 nodeapp
-docker exec -it <container-id> bash
-docker exec -it <container-id> sh
-docker stop <container-id>
-docker rm <container-id>
-docker kill <container-id>
+the command are :\n
+docker ps --all \n
+docker ps \n
+docker build . \n
+docker build -t <name> . \n
+docker run <name>\n
+docker run docker.io/milodey/nodeapp\n
+docker run -p <local-port>:<docker-port> <name>\n
+docker run -p 8000:8000 nodeapp\n
+docker exec -it <container-id> bash\n
+docker exec -it <container-id> sh\n
+docker stop <container-id>\n
+docker rm <container-id>\n
+docker kill <container-id>\n
 
-docker-compose up
-docker-compose up --build
-docker-compose up -d
-docker-compose down
-docker-compose down --volumes
-docker-compose logs
+
+#to kill all the container \n
+command : docker container prune\n
+
+docker-compose up\n
+docker-compose up --build\n
+docker-compose up -d\n
+docker-compose down\n
+docker-compose down --volumes\n
+docker-compose logs\n
 
